@@ -3213,3 +3213,12 @@ Processing by SongsController#index as HTML
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1[0m  [["id", 12]]
   [1m[35mCACHE (0.0ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 12]]
   Rendered songs/index.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 12636ms (Views: 12633.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/active_admin.self-5c031fe3fdf7fbf38610b23d3077d0952bd1673a9b1c43e5ad30304a79bc2829.css?body=1" for 24.146.255.14 at 2018-04-02 16:48:52 +0000
+Cannot render console from 24.146.255.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 24.146.255.14 at 2018-04-02 16:48:52 +0000
+Cannot render console from 24.146.255.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
